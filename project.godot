@@ -21,7 +21,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Pong"
-run/main_scene="res://Level/Level.tscn"
+run/main_scene="res://Menus/MainMenu.tscn"
 boot_splash/show_image=false
 boot_splash/bg_color=Color( 0.141176, 0.141176, 0.141176, 1 )
 
