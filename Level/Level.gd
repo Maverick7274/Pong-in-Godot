@@ -7,7 +7,10 @@ func score_achieved():
 	$Ball.position = Vector2(640, 360)
 	get_tree().call_group('BallGroup', 'stop_ball')
 	$CountdownTimer.start()
+	$ScoreSound.play()
 	$TimerDisplay.visible = true
+	$Player.position.x = 75
+	$Opponent.position.x = 1280 - 75
 
 
 # warning-ignore:unused_argument
